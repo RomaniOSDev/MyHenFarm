@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788.4" systemVersion="24G84" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Chicken" representedClassName="Chicken" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bread" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="noes" optional="YES" attributeType="String"/>
+        <relationship name="coop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Coop" inverseName="chken" inverseEntity="Coop"/>
+    </entity>
+    <entity name="Coop" representedClassName="Coop" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="titleCoop" optional="YES" attributeType="String"/>
+        <relationship name="chken" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Chicken" inverseName="coop" inverseEntity="Chicken"/>
+        <relationship name="post" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PostCounting" inverseName="coop" inverseEntity="PostCounting"/>
+    </entity>
+    <entity name="Feeding" representedClassName="Feeding" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="nate" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PostCounting" representedClassName="PostCounting" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="coop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Coop" inverseName="post" inverseEntity="Coop"/>
+    </entity>
+</model>
