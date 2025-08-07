@@ -3,10 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742F15162E414DC50062BBA7 /* MyHenFarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 742F15122E414DC50062BBA7 /* MyHenFarm.xcdatamodeld */; };
+		742F15172E414DC50062BBA7 /* MyHenFarmCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15132E414DC50062BBA7 /* MyHenFarmCoreDataManager.swift */; };
+		742F153E2E414DC70062BBA7 /* ChikenCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15182E414DC70062BBA7 /* ChikenCellView.swift */; };
+		742F153F2E414DC70062BBA7 /* CoopCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15192E414DC70062BBA7 /* CoopCellView.swift */; };
+		742F15402E414DC70062BBA7 /* FeedingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F151A2E414DC70062BBA7 /* FeedingCellView.swift */; };
+		742F15412E414DC70062BBA7 /* PostCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F151B2E414DC70062BBA7 /* PostCellView.swift */; };
+		742F15422E414DC70062BBA7 /* AddChikenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F151D2E414DC70062BBA7 /* AddChikenView.swift */; };
+		742F15432E414DC70062BBA7 /* AddCoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F151E2E414DC70062BBA7 /* AddCoopView.swift */; };
+		742F15442E414DC70062BBA7 /* ChikenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F151F2E414DC70062BBA7 /* ChikenViewModel.swift */; };
+		742F15452E414DC70062BBA7 /* CoopInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15202E414DC70062BBA7 /* CoopInfoView.swift */; };
+		742F15462E414DC70062BBA7 /* CoopsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15212E414DC70062BBA7 /* CoopsListView.swift */; };
+		742F15472E414DC70062BBA7 /* CoopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15222E414DC70062BBA7 /* CoopsViewModel.swift */; };
+		742F15482E414DC70062BBA7 /* AddAPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15242E414DC70062BBA7 /* AddAPostView.swift */; };
+		742F15492E414DC70062BBA7 /* EggCountingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15252E414DC70062BBA7 /* EggCountingview.swift */; };
+		742F154A2E414DC70062BBA7 /* EggCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15262E414DC70062BBA7 /* EggCountViewModel.swift */; };
+		742F154B2E414DC70062BBA7 /* AddFeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15282E414DC70062BBA7 /* AddFeedingView.swift */; };
+		742F154C2E414DC70062BBA7 /* FeedingListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15292E414DC70062BBA7 /* FeedingListview.swift */; };
+		742F154D2E414DC70062BBA7 /* FeedingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F152A2E414DC70062BBA7 /* FeedingViewModel.swift */; };
+		742F154E2E414DC70062BBA7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F152C2E414DC70062BBA7 /* BackgroundView.swift */; };
+		742F154F2E414DC70062BBA7 /* CustomTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F152D2E414DC70062BBA7 /* CustomTimePicker.swift */; };
+		742F15502E414DC70062BBA7 /* GreenButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F152E2E414DC70062BBA7 /* GreenButtonView.swift */; };
+		742F15512E414DC70062BBA7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15302E414DC70062BBA7 /* MainView.swift */; };
+		742F15522E414DC70062BBA7 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15322E414DC70062BBA7 /* OnboardingViewModel.swift */; };
+		742F15532E414DC70062BBA7 /* OnboardnigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15332E414DC70062BBA7 /* OnboardnigView.swift */; };
+		742F15542E414DC70062BBA7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15352E414DC70062BBA7 /* SettingsView.swift */; };
+		742F15552E414DC70062BBA7 /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15372E414DC70062BBA7 /* LoadingViewModel.swift */; };
+		742F15562E414DC70062BBA7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15382E414DC70062BBA7 /* StartView.swift */; };
+		742F15572E414DC70062BBA7 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F153A2E414DC70062BBA7 /* StatisticView.swift */; };
+		742F15582E414DC70062BBA7 /* StatisticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */; };
 		74CF39EE2E3EA85B0006C134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF39E42E3EA85B0006C134 /* AppDelegate.swift */; };
 		74CF39EF2E3EA85B0006C134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF39EB2E3EA85B0006C134 /* SceneDelegate.swift */; };
 		74CF39F12E3EA85B0006C134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CF39E52E3EA85B0006C134 /* Assets.xcassets */; };
@@ -16,6 +45,35 @@
 
 /* Begin PBXFileReference section */
 		526E741A1AD46CD557E8F99A /* Pods-MyHenFarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHenFarm.debug.xcconfig"; path = "Target Support Files/Pods-MyHenFarm/Pods-MyHenFarm.debug.xcconfig"; sourceTree = "<group>"; };
+		742F15132E414DC50062BBA7 /* MyHenFarmCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHenFarmCoreDataManager.swift; sourceTree = "<group>"; };
+		742F15152E414DC50062BBA7 /* MyHenFarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyHenFarm.xcdatamodel; sourceTree = "<group>"; };
+		742F15182E414DC70062BBA7 /* ChikenCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChikenCellView.swift; sourceTree = "<group>"; };
+		742F15192E414DC70062BBA7 /* CoopCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopCellView.swift; sourceTree = "<group>"; };
+		742F151A2E414DC70062BBA7 /* FeedingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingCellView.swift; sourceTree = "<group>"; };
+		742F151B2E414DC70062BBA7 /* PostCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellView.swift; sourceTree = "<group>"; };
+		742F151D2E414DC70062BBA7 /* AddChikenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChikenView.swift; sourceTree = "<group>"; };
+		742F151E2E414DC70062BBA7 /* AddCoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoopView.swift; sourceTree = "<group>"; };
+		742F151F2E414DC70062BBA7 /* ChikenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChikenViewModel.swift; sourceTree = "<group>"; };
+		742F15202E414DC70062BBA7 /* CoopInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopInfoView.swift; sourceTree = "<group>"; };
+		742F15212E414DC70062BBA7 /* CoopsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopsListView.swift; sourceTree = "<group>"; };
+		742F15222E414DC70062BBA7 /* CoopsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopsViewModel.swift; sourceTree = "<group>"; };
+		742F15242E414DC70062BBA7 /* AddAPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAPostView.swift; sourceTree = "<group>"; };
+		742F15252E414DC70062BBA7 /* EggCountingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggCountingview.swift; sourceTree = "<group>"; };
+		742F15262E414DC70062BBA7 /* EggCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggCountViewModel.swift; sourceTree = "<group>"; };
+		742F15282E414DC70062BBA7 /* AddFeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedingView.swift; sourceTree = "<group>"; };
+		742F15292E414DC70062BBA7 /* FeedingListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingListview.swift; sourceTree = "<group>"; };
+		742F152A2E414DC70062BBA7 /* FeedingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingViewModel.swift; sourceTree = "<group>"; };
+		742F152C2E414DC70062BBA7 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		742F152D2E414DC70062BBA7 /* CustomTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimePicker.swift; sourceTree = "<group>"; };
+		742F152E2E414DC70062BBA7 /* GreenButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButtonView.swift; sourceTree = "<group>"; };
+		742F15302E414DC70062BBA7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		742F15322E414DC70062BBA7 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		742F15332E414DC70062BBA7 /* OnboardnigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardnigView.swift; sourceTree = "<group>"; };
+		742F15352E414DC70062BBA7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		742F15372E414DC70062BBA7 /* LoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModel.swift; sourceTree = "<group>"; };
+		742F15382E414DC70062BBA7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		742F153A2E414DC70062BBA7 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewModel.swift; sourceTree = "<group>"; };
 		74CF39CC2E3EA83C0006C134 /* MyHenFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHenFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CF39E42E3EA85B0006C134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74CF39E52E3EA85B0006C134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,11 +84,6 @@
 		A0C204CE4ADC32B1B1719669 /* Pods_MyHenFarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHenFarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56988A54C12AD0921B5EB28 /* Pods-MyHenFarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHenFarm.release.xcconfig"; path = "Target Support Files/Pods-MyHenFarm/Pods-MyHenFarm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		74AB98542E3FE18C002238CA /* CoreData */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CoreData; sourceTree = "<group>"; };
-		74CF3A0A2E3EAB420006C134 /* View */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = View; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74CF39C92E3EA83C0006C134 /* Frameworks */ = {
@@ -49,6 +102,129 @@
 				A0C204CE4ADC32B1B1719669 /* Pods_MyHenFarm.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742F15142E414DC50062BBA7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				742F15122E414DC50062BBA7 /* MyHenFarm.xcdatamodeld */,
+				742F15132E414DC50062BBA7 /* MyHenFarmCoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		742F151C2E414DC70062BBA7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				742F15182E414DC70062BBA7 /* ChikenCellView.swift */,
+				742F15192E414DC70062BBA7 /* CoopCellView.swift */,
+				742F151A2E414DC70062BBA7 /* FeedingCellView.swift */,
+				742F151B2E414DC70062BBA7 /* PostCellView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		742F15232E414DC70062BBA7 /* Coops */ = {
+			isa = PBXGroup;
+			children = (
+				742F151D2E414DC70062BBA7 /* AddChikenView.swift */,
+				742F151E2E414DC70062BBA7 /* AddCoopView.swift */,
+				742F151F2E414DC70062BBA7 /* ChikenViewModel.swift */,
+				742F15202E414DC70062BBA7 /* CoopInfoView.swift */,
+				742F15212E414DC70062BBA7 /* CoopsListView.swift */,
+				742F15222E414DC70062BBA7 /* CoopsViewModel.swift */,
+			);
+			path = Coops;
+			sourceTree = "<group>";
+		};
+		742F15272E414DC70062BBA7 /* EggCounting */ = {
+			isa = PBXGroup;
+			children = (
+				742F15242E414DC70062BBA7 /* AddAPostView.swift */,
+				742F15252E414DC70062BBA7 /* EggCountingview.swift */,
+				742F15262E414DC70062BBA7 /* EggCountViewModel.swift */,
+			);
+			path = EggCounting;
+			sourceTree = "<group>";
+		};
+		742F152B2E414DC70062BBA7 /* Feeding */ = {
+			isa = PBXGroup;
+			children = (
+				742F15282E414DC70062BBA7 /* AddFeedingView.swift */,
+				742F15292E414DC70062BBA7 /* FeedingListview.swift */,
+				742F152A2E414DC70062BBA7 /* FeedingViewModel.swift */,
+			);
+			path = Feeding;
+			sourceTree = "<group>";
+		};
+		742F152F2E414DC70062BBA7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				742F152C2E414DC70062BBA7 /* BackgroundView.swift */,
+				742F152D2E414DC70062BBA7 /* CustomTimePicker.swift */,
+				742F152E2E414DC70062BBA7 /* GreenButtonView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		742F15312E414DC70062BBA7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				742F15302E414DC70062BBA7 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		742F15342E414DC70062BBA7 /* Ondording */ = {
+			isa = PBXGroup;
+			children = (
+				742F15322E414DC70062BBA7 /* OnboardingViewModel.swift */,
+				742F15332E414DC70062BBA7 /* OnboardnigView.swift */,
+			);
+			path = Ondording;
+			sourceTree = "<group>";
+		};
+		742F15362E414DC70062BBA7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				742F15352E414DC70062BBA7 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		742F15392E414DC70062BBA7 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				742F15372E414DC70062BBA7 /* LoadingViewModel.swift */,
+				742F15382E414DC70062BBA7 /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		742F153C2E414DC70062BBA7 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				742F153A2E414DC70062BBA7 /* StatisticView.swift */,
+				742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		742F153D2E414DC70062BBA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				742F151C2E414DC70062BBA7 /* Cells */,
+				742F15232E414DC70062BBA7 /* Coops */,
+				742F15272E414DC70062BBA7 /* EggCounting */,
+				742F152B2E414DC70062BBA7 /* Feeding */,
+				742F152F2E414DC70062BBA7 /* Helpers */,
+				742F15312E414DC70062BBA7 /* Main */,
+				742F15342E414DC70062BBA7 /* Ondording */,
+				742F15362E414DC70062BBA7 /* Settings */,
+				742F15392E414DC70062BBA7 /* Start */,
+				742F153C2E414DC70062BBA7 /* Statistic */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		74CF39C32E3EA83C0006C134 = {
@@ -72,8 +248,8 @@
 		74CF39ED2E3EA85B0006C134 /* MyHenFarm */ = {
 			isa = PBXGroup;
 			children = (
-				74AB98542E3FE18C002238CA /* CoreData */,
-				74CF3A0A2E3EAB420006C134 /* View */,
+				742F15142E414DC50062BBA7 /* CoreData */,
+				742F153D2E414DC70062BBA7 /* View */,
 				74CF39E42E3EA85B0006C134 /* AppDelegate.swift */,
 				74CF39E52E3EA85B0006C134 /* Assets.xcassets */,
 				74CF39E62E3EA85B0006C134 /* Info.plist */,
@@ -108,10 +284,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				74AB98542E3FE18C002238CA /* CoreData */,
-				74CF3A0A2E3EAB420006C134 /* View */,
 			);
 			name = MyHenFarm;
 			productName = MyHenFarm;
@@ -195,6 +367,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CF39EE2E3EA85B0006C134 /* AppDelegate.swift in Sources */,
+				742F15162E414DC50062BBA7 /* MyHenFarm.xcdatamodeld in Sources */,
+				742F153E2E414DC70062BBA7 /* ChikenCellView.swift in Sources */,
+				742F153F2E414DC70062BBA7 /* CoopCellView.swift in Sources */,
+				742F15402E414DC70062BBA7 /* FeedingCellView.swift in Sources */,
+				742F15412E414DC70062BBA7 /* PostCellView.swift in Sources */,
+				742F15422E414DC70062BBA7 /* AddChikenView.swift in Sources */,
+				742F15432E414DC70062BBA7 /* AddCoopView.swift in Sources */,
+				742F15442E414DC70062BBA7 /* ChikenViewModel.swift in Sources */,
+				742F15452E414DC70062BBA7 /* CoopInfoView.swift in Sources */,
+				742F15462E414DC70062BBA7 /* CoopsListView.swift in Sources */,
+				742F15472E414DC70062BBA7 /* CoopsViewModel.swift in Sources */,
+				742F15482E414DC70062BBA7 /* AddAPostView.swift in Sources */,
+				742F15492E414DC70062BBA7 /* EggCountingview.swift in Sources */,
+				742F154A2E414DC70062BBA7 /* EggCountViewModel.swift in Sources */,
+				742F154B2E414DC70062BBA7 /* AddFeedingView.swift in Sources */,
+				742F154C2E414DC70062BBA7 /* FeedingListview.swift in Sources */,
+				742F154D2E414DC70062BBA7 /* FeedingViewModel.swift in Sources */,
+				742F154E2E414DC70062BBA7 /* BackgroundView.swift in Sources */,
+				742F154F2E414DC70062BBA7 /* CustomTimePicker.swift in Sources */,
+				742F15502E414DC70062BBA7 /* GreenButtonView.swift in Sources */,
+				742F15512E414DC70062BBA7 /* MainView.swift in Sources */,
+				742F15522E414DC70062BBA7 /* OnboardingViewModel.swift in Sources */,
+				742F15532E414DC70062BBA7 /* OnboardnigView.swift in Sources */,
+				742F15542E414DC70062BBA7 /* SettingsView.swift in Sources */,
+				742F15552E414DC70062BBA7 /* LoadingViewModel.swift in Sources */,
+				742F15562E414DC70062BBA7 /* StartView.swift in Sources */,
+				742F15572E414DC70062BBA7 /* StatisticView.swift in Sources */,
+				742F15582E414DC70062BBA7 /* StatisticViewModel.swift in Sources */,
+				742F15172E414DC50062BBA7 /* MyHenFarmCoreDataManager.swift in Sources */,
 				74CF39EF2E3EA85B0006C134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +432,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHenFarm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Hen Farm";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -242,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.MyHenFarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myhenfarm33.pre2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -264,6 +466,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHenFarm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Hen Farm";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -275,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.MyHenFarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myhenfarm33.pre2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -428,6 +631,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		742F15122E414DC50062BBA7 /* MyHenFarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				742F15152E414DC50062BBA7 /* MyHenFarm.xcdatamodel */,
+			);
+			currentVersion = 742F15152E414DC50062BBA7 /* MyHenFarm.xcdatamodel */;
+			path = MyHenFarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 74CF39C42E3EA83C0006C134 /* Project object */;
 }

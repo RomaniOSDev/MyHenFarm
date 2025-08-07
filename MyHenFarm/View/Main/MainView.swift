@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    
     var body: some View {
         NavigationStack{
         ZStack{
@@ -101,9 +103,27 @@ struct MainView: View {
                         
                     }
                     .frame(height: 80)
-                    Image(.eggProduction)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+                    NavigationLink {
+                        StatisticView()
+                    } label: {
+                        Image(.eggProduction)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                    }
+                    
+                    NavigationLink {
+                        SettingsView()
+                    } label: {
+                        Image(systemName: "gear")
+                            .resizable()
+                            .frame(width: 60 , height: 60)
+                            .foregroundStyle(.redApp)
+                            .shadow(radius: 5)
+                    }
+                    .padding()
+
+
+                    
                     Spacer()
                 }.padding()
             }
