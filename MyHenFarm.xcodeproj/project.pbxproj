@@ -36,6 +36,14 @@
 		742F15562E414DC70062BBA7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15382E414DC70062BBA7 /* StartView.swift */; };
 		742F15572E414DC70062BBA7 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F153A2E414DC70062BBA7 /* StatisticView.swift */; };
 		742F15582E414DC70062BBA7 /* StatisticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */; };
+		74B9444C2E478C9A0081A146 /* HandBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9444B2E478C9A0081A146 /* HandBookView.swift */; };
+		74B9444E2E478EA00081A146 /* ChickenAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9444D2E478EA00081A146 /* ChickenAPIService.swift */; };
+		74B944502E478EA80081A146 /* ChickenBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9444F2E478EA80081A146 /* ChickenBreed.swift */; };
+		74B944562E47EE710081A146 /* DiseaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B944522E47EE710081A146 /* DiseaseDetailView.swift */; };
+		74B944572E47EE710081A146 /* HealthAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B944532E47EE710081A146 /* HealthAPIService.swift */; };
+		74B944582E47EE710081A146 /* HealthSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B944542E47EE710081A146 /* HealthSectionView.swift */; };
+		74B944592E47EE710081A146 /* ChickenHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B944512E47EE710081A146 /* ChickenHealth.swift */; };
+		74B9445A2E47EE710081A146 /* VaccinationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B944552E47EE710081A146 /* VaccinationDetailView.swift */; };
 		74CF39EE2E3EA85B0006C134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF39E42E3EA85B0006C134 /* AppDelegate.swift */; };
 		74CF39EF2E3EA85B0006C134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF39EB2E3EA85B0006C134 /* SceneDelegate.swift */; };
 		74CF39F12E3EA85B0006C134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CF39E52E3EA85B0006C134 /* Assets.xcassets */; };
@@ -74,6 +82,14 @@
 		742F15382E414DC70062BBA7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		742F153A2E414DC70062BBA7 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewModel.swift; sourceTree = "<group>"; };
+		74B9444B2E478C9A0081A146 /* HandBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandBookView.swift; sourceTree = "<group>"; };
+		74B9444D2E478EA00081A146 /* ChickenAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenAPIService.swift; sourceTree = "<group>"; };
+		74B9444F2E478EA80081A146 /* ChickenBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenBreed.swift; sourceTree = "<group>"; };
+		74B944512E47EE710081A146 /* ChickenHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenHealth.swift; sourceTree = "<group>"; };
+		74B944522E47EE710081A146 /* DiseaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseDetailView.swift; sourceTree = "<group>"; };
+		74B944532E47EE710081A146 /* HealthAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAPIService.swift; sourceTree = "<group>"; };
+		74B944542E47EE710081A146 /* HealthSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSectionView.swift; sourceTree = "<group>"; };
+		74B944552E47EE710081A146 /* VaccinationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationDetailView.swift; sourceTree = "<group>"; };
 		74CF39CC2E3EA83C0006C134 /* MyHenFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHenFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CF39E42E3EA85B0006C134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74CF39E52E3EA85B0006C134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -213,6 +229,7 @@
 		742F153D2E414DC70062BBA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				74B9444A2E478C7A0081A146 /* HandBook */,
 				742F151C2E414DC70062BBA7 /* Cells */,
 				742F15232E414DC70062BBA7 /* Coops */,
 				742F15272E414DC70062BBA7 /* EggCounting */,
@@ -225,6 +242,21 @@
 				742F153C2E414DC70062BBA7 /* Statistic */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		74B9444A2E478C7A0081A146 /* HandBook */ = {
+			isa = PBXGroup;
+			children = (
+				74B9444B2E478C9A0081A146 /* HandBookView.swift */,
+				74B9444D2E478EA00081A146 /* ChickenAPIService.swift */,
+				74B9444F2E478EA80081A146 /* ChickenBreed.swift */,
+				74B944512E47EE710081A146 /* ChickenHealth.swift */,
+				74B944522E47EE710081A146 /* DiseaseDetailView.swift */,
+				74B944532E47EE710081A146 /* HealthAPIService.swift */,
+				74B944542E47EE710081A146 /* HealthSectionView.swift */,
+				74B944552E47EE710081A146 /* VaccinationDetailView.swift */,
+			);
+			path = HandBook;
 			sourceTree = "<group>";
 		};
 		74CF39C32E3EA83C0006C134 = {
@@ -370,16 +402,24 @@
 				742F15162E414DC50062BBA7 /* MyHenFarm.xcdatamodeld in Sources */,
 				742F153E2E414DC70062BBA7 /* ChikenCellView.swift in Sources */,
 				742F153F2E414DC70062BBA7 /* CoopCellView.swift in Sources */,
+				74B9444E2E478EA00081A146 /* ChickenAPIService.swift in Sources */,
 				742F15402E414DC70062BBA7 /* FeedingCellView.swift in Sources */,
 				742F15412E414DC70062BBA7 /* PostCellView.swift in Sources */,
 				742F15422E414DC70062BBA7 /* AddChikenView.swift in Sources */,
 				742F15432E414DC70062BBA7 /* AddCoopView.swift in Sources */,
 				742F15442E414DC70062BBA7 /* ChikenViewModel.swift in Sources */,
+				74B944502E478EA80081A146 /* ChickenBreed.swift in Sources */,
 				742F15452E414DC70062BBA7 /* CoopInfoView.swift in Sources */,
 				742F15462E414DC70062BBA7 /* CoopsListView.swift in Sources */,
 				742F15472E414DC70062BBA7 /* CoopsViewModel.swift in Sources */,
+				74B944562E47EE710081A146 /* DiseaseDetailView.swift in Sources */,
+				74B944572E47EE710081A146 /* HealthAPIService.swift in Sources */,
+				74B944582E47EE710081A146 /* HealthSectionView.swift in Sources */,
+				74B944592E47EE710081A146 /* ChickenHealth.swift in Sources */,
+				74B9445A2E47EE710081A146 /* VaccinationDetailView.swift in Sources */,
 				742F15482E414DC70062BBA7 /* AddAPostView.swift in Sources */,
 				742F15492E414DC70062BBA7 /* EggCountingview.swift in Sources */,
+				74B9444C2E478C9A0081A146 /* HandBookView.swift in Sources */,
 				742F154A2E414DC70062BBA7 /* EggCountViewModel.swift in Sources */,
 				742F154B2E414DC70062BBA7 /* AddFeedingView.swift in Sources */,
 				742F154C2E414DC70062BBA7 /* FeedingListview.swift in Sources */,
@@ -429,7 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHenFarm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Hen Farm";
@@ -463,7 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHenFarm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Hen Farm";
