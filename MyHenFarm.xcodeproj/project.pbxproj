@@ -36,6 +36,12 @@
 		742F15562E414DC70062BBA7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F15382E414DC70062BBA7 /* StartView.swift */; };
 		742F15572E414DC70062BBA7 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F153A2E414DC70062BBA7 /* StatisticView.swift */; };
 		742F15582E414DC70062BBA7 /* StatisticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */; };
+		7448C10C2E54583000F852CC /* AppParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C1062E54583000F852CC /* AppParameters.swift */; };
+		7448C10D2E54583000F852CC /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C1072E54583000F852CC /* AppsFlyerManager.swift */; };
+		7448C10E2E54583000F852CC /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C1082E54583000F852CC /* InternetViewController.swift */; };
+		7448C10F2E54583000F852CC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C1092E54583000F852CC /* LoadingView.swift */; };
+		7448C1102E54583000F852CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C10A2E54583000F852CC /* NetworkManager.swift */; };
+		7448C1132E5458DC00F852CC /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7448C1122E5458DC00F852CC /* AppsFlyerLib */; };
 		74B9444C2E478C9A0081A146 /* HandBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9444B2E478C9A0081A146 /* HandBookView.swift */; };
 		74B9444E2E478EA00081A146 /* ChickenAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9444D2E478EA00081A146 /* ChickenAPIService.swift */; };
 		74B944502E478EA80081A146 /* ChickenBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9444F2E478EA80081A146 /* ChickenBreed.swift */; };
@@ -82,6 +88,11 @@
 		742F15382E414DC70062BBA7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		742F153A2E414DC70062BBA7 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		742F153B2E414DC70062BBA7 /* StatisticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewModel.swift; sourceTree = "<group>"; };
+		7448C1062E54583000F852CC /* AppParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppParameters.swift; sourceTree = "<group>"; };
+		7448C1072E54583000F852CC /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		7448C1082E54583000F852CC /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7448C1092E54583000F852CC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		7448C10A2E54583000F852CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		74B9444B2E478C9A0081A146 /* HandBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandBookView.swift; sourceTree = "<group>"; };
 		74B9444D2E478EA00081A146 /* ChickenAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenAPIService.swift; sourceTree = "<group>"; };
 		74B9444F2E478EA80081A146 /* ChickenBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenBreed.swift; sourceTree = "<group>"; };
@@ -106,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7448C1132E5458DC00F852CC /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +252,21 @@
 				742F15362E414DC70062BBA7 /* Settings */,
 				742F15392E414DC70062BBA7 /* Start */,
 				742F153C2E414DC70062BBA7 /* Statistic */,
+				7448C10B2E54583000F852CC /* Loading */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7448C10B2E54583000F852CC /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				7448C1062E54583000F852CC /* AppParameters.swift */,
+				7448C1072E54583000F852CC /* AppsFlyerManager.swift */,
+				7448C1082E54583000F852CC /* InternetViewController.swift */,
+				7448C1092E54583000F852CC /* LoadingView.swift */,
+				7448C10A2E54583000F852CC /* NetworkManager.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		74B9444A2E478C7A0081A146 /* HandBook */ = {
@@ -346,6 +371,9 @@
 				Base,
 			);
 			mainGroup = 74CF39C32E3EA83C0006C134;
+			packageReferences = (
+				7448C1112E5458DC00F852CC /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
 			productRefGroup = 74CF39CD2E3EA83C0006C134 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -411,6 +439,11 @@
 				74B944502E478EA80081A146 /* ChickenBreed.swift in Sources */,
 				742F15452E414DC70062BBA7 /* CoopInfoView.swift in Sources */,
 				742F15462E414DC70062BBA7 /* CoopsListView.swift in Sources */,
+				7448C10C2E54583000F852CC /* AppParameters.swift in Sources */,
+				7448C10D2E54583000F852CC /* AppsFlyerManager.swift in Sources */,
+				7448C10E2E54583000F852CC /* InternetViewController.swift in Sources */,
+				7448C10F2E54583000F852CC /* LoadingView.swift in Sources */,
+				7448C1102E54583000F852CC /* NetworkManager.swift in Sources */,
 				742F15472E414DC70062BBA7 /* CoopsViewModel.swift in Sources */,
 				74B944562E47EE710081A146 /* DiseaseDetailView.swift in Sources */,
 				74B944572E47EE710081A146 /* HealthAPIService.swift in Sources */,
@@ -470,6 +503,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHenFarm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Hen Farm";
@@ -504,6 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHenFarm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Hen Farm";
@@ -671,6 +706,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7448C1112E5458DC00F852CC /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7448C1122E5458DC00F852CC /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7448C1112E5458DC00F852CC /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		742F15122E414DC50062BBA7 /* MyHenFarm.xcdatamodeld */ = {
