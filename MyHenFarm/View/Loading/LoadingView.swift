@@ -266,7 +266,7 @@ class LoadingView: UIViewController {
         case 403: // forbidden
             currentState = .error("Доступ запрещен (403)")
         case 404: // notFound
-            currentState = .error("Ресурс не найден (404)")
+            currentState = .error("resurrs not found (404)")
         case 429: // rateLimited
             currentState = .error("Превышен лимит запросов (429)")
         case NSURLErrorTimedOut: // timeout
